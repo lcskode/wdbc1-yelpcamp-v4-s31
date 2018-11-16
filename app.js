@@ -4,7 +4,7 @@ var express     = require("express"),
     mongoose    = require("mongoose"),
     // Use campground schema from /models/campground.js file 
     Campground  = require("./models/campground"),
-    // Will clear every data from DB. (error driven code)
+    // Will clear every data and create new data from DB. (error driven code)
     seedDB      = require("./seeds");
 
 // remove data from db
