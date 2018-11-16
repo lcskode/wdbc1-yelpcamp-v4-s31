@@ -4,16 +4,16 @@
 * Add the comment new and create routes  
 * Add the new comment form  
 
-**CAMPGROUND ROUTES**
-name | url | verb 
+**CAMPGROUND ROUTES**  
+name | url | verb  
 --- | --- | ---  
 INDEX | /campgrounds | GET  
 NEW | /campgrounds/new | GET  
 CREATE | /campgrounds | POST  
 SHOW | /campgrounds/:id | GET  
 
-**CAMPGROUND NESTED ROUTES FOR COMMENTS**
-name | url | verb 
+**CAMPGROUND NESTED ROUTES FOR COMMENTS**  
+name | url | verb  
 --- | --- | ---  
 NEW | /campgrounds/:id/new | GET  
 CREATE | /campgrounds/:id/comments | POST  
