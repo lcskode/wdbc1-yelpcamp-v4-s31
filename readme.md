@@ -1,10 +1,11 @@
-#### S31-L278 YelpCamp V4  
+#### S31-L278 and S31-L279 YelpCamp V4  
 **Comment New/Create**  
 * Discuss nested routes  
 * Add the comment new and create routes  
 * Add the new comment form  
 
 **CAMPGROUND ROUTES**  
+
 name   | url              | verb |  
 ------ | ---------------- | ---- |  
 INDEX  | /campgrounds     | GET  |  
@@ -13,6 +14,7 @@ CREATE | /campgrounds     | POST |
 SHOW   | /campgrounds/:id | GET  |  
 
 **CAMPGROUND NESTED ROUTES FOR COMMENTS**  
+
 name   | url                       | verb |  
 ------ | ------------------------- | ---- |  
 NEW    | /campgrounds/:id/new      | GET  |  
